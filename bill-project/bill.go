@@ -43,7 +43,7 @@ func (b *bill) format() string {
 // update the tip
 // when we update struct values
 // we pass in a pointer
-// and go automaticlly dereferences it
+// and go automaticly dereferences it
 func (b *bill) updateTip(tip float64) {
 	b.tip = tip
 }
